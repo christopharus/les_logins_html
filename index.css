@@ -4,10 +4,10 @@
 
 }
 body{
-    background-image: url("img/etretat-4506072.jpg");
+    background-image: url("img/petals-5100957.jpg");
     background-size:cover;
     background-attachment: fixed;
-    font-family: calibri light;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 h1{
@@ -17,12 +17,26 @@ h1{
     margin-bottom: 160px;
 }
 .form-control{
-    background: transparent;
+   /* background: transparent;*/
+    background: currentColor;
     border-radius: 0px;
     border:0px;
     padding:30px;
-    color:white;
-    border-bottom: 2px solid white;
+    columns: #343434;
+    border-bottom: 2px solid black;
     margin-top: 10px;
     font-size:15px;
+    color:#1b1b1b;  
+}
+.btn{
+    margin-left: 35%;
+    width:100px;
+    color:black;
+    background-color: white;
+    border-top: 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: #343434;
+    border-color: #1b1b1b;
 }
