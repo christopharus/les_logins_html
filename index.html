@@ -8,7 +8,49 @@
     </head>
     <body>
         
-       <div class="container">
+        
+        <nav class="navbar navbar-default l" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Title</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+        
+        
+        
+       <div class="container midle">
            <h1 class="text-center">Login </h1>
            <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -16,12 +58,13 @@
                 </div>
                     
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <input type="text" class="form-control" name="username" placeholder="Username or Email" required="required">
-                    
-                    <input type="password" name="password" id="password" class="form-control " required="required" placeholder="Password">
-                    
-                    <button type="submit" class="btn btn-success btn ">Login</button>
-                    
+                    <form action="" method="get">
+                        <input type="text" class="form-control" name="username" placeholder="Username or Email" required="required">
+                        
+                        <input type="password" name="password" id="password" class="form-control " required="required" placeholder="Password">
+                        
+                        <button type="submit" class="btn btn-success btn ">Login</button>
+                    </form>
                 </div>
                     
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -29,6 +72,18 @@
                 </div>
            </div>
        </div>
-        
+       <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text">Content</p>
+                </div>
+                <div class="card-footer">
+                    Footer
+                </div>
+            </div>
+       
+       </footer>
     </body>
 </html>

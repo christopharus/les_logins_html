@@ -4,32 +4,50 @@
 
 }
 body{
+    margin-top:0px;
+    padding-top:0px;
+}
+.row{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.midle{
     background-image: url("img/petals-5100957.jpg");
     background-size:cover;
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
+.navbar{
+    background-color: #f4fafa;
+    color:black;
+    text-decoration: solid;
+    font-weight: bold;
 }
 h1{
     font-size: 50px;
-    color:black;
-    margin-top: 30px;
-    margin-bottom: 160px;
+    color:white;
+    margin-top: 15%;
+    margin-bottom: 0px;
 }
 .form-control{
    /* background: transparent;*/
-    background: currentColor;
+    background: transparent;
+    background-color: #1b1b1b;
     border-radius: 0px;
     border:0px;
     padding:30px;
-    columns: #343434;
+    columns: white;
     border-bottom: 2px solid black;
     margin-top: 10px;
-    font-size:15px;
-    color:#1b1b1b;  
+    font-size:17px;
+    color:white;
 }
 .btn{
-    margin-left: 35%;
     width:100px;
     color:black;
     background-color: white;
@@ -39,4 +57,17 @@ h1{
 .btn:hover{
     background-color: #343434;
     border-color: #1b1b1b;
+}
+.l{
+    margin-bottom: 0px;
+}
+footer{
+    background-color: darkgray;
+   position: fixed;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
