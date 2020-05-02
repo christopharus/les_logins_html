@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    background-image: url("img/petals-5100957.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1{
+    font-size: 50px;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 160px;
+}
+.form-control{
+   /* background: transparent;*/
+    background: currentColor;
+    border-radius: 0px;
+    border:0px;
+    padding:30px;
+    columns: #343434;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    font-size:15px;
+    color:#1b1b1b;  
+}
+.btn{
+    margin-left: 35%;
+    width:100px;
+    color:black;
+    background-color: white;
+    border-top: 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: #343434;
+    border-color: #1b1b1b;
+}
