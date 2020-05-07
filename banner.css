@@ -1,0 +1,48 @@
+.nav{
+    position:absolute;
+    width: 100%;
+}
+.banner{
+    margin-top: 0px;
+}
+.ba{
+    padding-top: 300px;
+    height: 10p;
+}
+.bt{
+    border-color:black;
+    border-radius: 2px 2px 3px 3px;
+    color:black;
+    width:100px;
+    height: 40px;
+}
+.tt{
+    font-size: 50px;
+}
+.strag{
+    background-image: url(img/petals-5100957.jpg);
+    background-size: cover;
+    height: 800px;
+    color:white;
+    text-align: left;
+}
+.strag a{
+    color:rgb(255, 251, 251);
+    font-weight: 400   ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.hr{
+    width:10%;
+    color:blue;
+    font-size: large;
+    border:3px solid blue;
+    border-radius: 2px 2px 3px 4px;
+}
+.services{
+    text-align: justify;
+    margin-top:40px;
+}
+.h{
+    margin-top:40px;
+}

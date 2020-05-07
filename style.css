@@ -1,0 +1,22 @@
+.ll{
+    padding:0px;
+    margin:0px;
+    margin-top: 20px;
+}
+body{
+    background-image: url("img/etretat-4506072.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    background-color:white;
+}
+.ff{
+    margin-top: 20px;
+    margin:0px;
+    padding:0px;
+    height: 200px;
+}
+.ii{
+    height: 30px;
+}
